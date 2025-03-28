@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Item de menu para abrir outra Activity -->
+    <item
+        android:id="@+id/open_activity_mi"
+        android:title="@string/open_activity"
+        android:icon="@drawable/ic_open_browser"
+    app:showAsAction="always"/>
+
+    <!-- Grupo de itens relacionados a Intents implícitas -->
+    <item android:title="Implicit intents">
+        <menu>
+            <!-- Item para abrir um navegador -->
+            <item
+                android:id="@+id/view_mi"
+                android:title="Open browser" />
+
+            <!-- Item para realizar uma chamada -->
+            <item
+                android:id="@+id/call_mi"
+                android:title="Call a number" />
+
+            <!-- Item para abrir o discador -->
+            <item
+                android:id="@+id/dial_mi"
+                android:title="Open dialer" />
+
+            <!-- Item para selecionar uma imagem -->
+            <item
+                android:id="@+id/pick_mi"
+                android:title="Pick an image" />
+
+            <!-- Item para exibir um seletor de apps compatíveis -->
+            <item
+                android:id="@+id/chooser_mi"
+                android:title="Choose a viewer" />
+        </menu>
+    </item>
+
+</menu>
