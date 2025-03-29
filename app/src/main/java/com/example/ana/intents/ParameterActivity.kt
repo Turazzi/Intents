@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.ana.intents.Extras.PARAMETER_EXTRA
+import com.example.ana.intents.databinding.ActivityParameterBinding
 
 
 class ParameterActivity : AppCompatActivity() {
